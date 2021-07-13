@@ -1,0 +1,35 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 1440px;
+    height: 677px;
+    background-color: #2D25A0;
+}
+.first-section{
+    display: flex;
+    justify-content: space-around;
+}
+.page-headline{
+    width: 455px;
+    height: 230px;
+    font-size: 65px;
+    color: #ffffff;
+    margin-left: 155px;
+    margin-top: 205px;
+    
+
+}
+.arrow{
+    background-color: #E02C6D;
+    margin-left: 155px;
+    margin-top: 45px;
+    padding: 10px 24px ;
+    text-decoration: none;
+}
+.kick{
+    Width :556.01px;
+    Height: 438px;
+    margin-top: 155px;
+    margin-right: 140px;
+}
