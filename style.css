@@ -2,10 +2,17 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 header{
-    width: 1440px;
+    width: 1350px;
     height: 677px;
     background-color: #2D25A0;
 }
+header:hover{
+    
+    background-color: #E02C6D;
+    transition: background-color 5s;
+
+}
+
 .first-section{
     display: flex;
     justify-content: space-around;
@@ -32,4 +39,38 @@ header{
     Height: 438px;
     margin-top: 155px;
     margin-right: 140px;
+}
+.kick:hover{
+    width: 1.5em;
+    transition: width 2s;
+}
+/*---------------
+mid section
+----------------*/
+.mid-section{
+    margin-top: 100px;
+    background-color: #ffffff;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    padding-left: 100px;
+  
+}
+.player{
+    width: 330px;
+    height: 475;
+    border: 1px solid whitesmoke;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.1);
+}
+
+.player-cv{
+    width: 300px;
+    height: 425px;
+    padding-left: 10px;
+}
+.player-cv img{
+    width: 300px;
+    height: 225px;
 }
