@@ -74,3 +74,75 @@ mid section
     width: 300px;
     height: 225px;
 }
+
+
+/*---------
+Footer
+-----------*/
+.last{
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.last-pic img{
+    width: 480px;
+    height: 110px;
+    padding-top: 155px;
+  
+   
+}
+.media a{
+    padding: 5px;
+    margin-top: 50px;
+   
+}
+/*-----------
+Media Query
+-------------*/
+/*MObile*/
+@media only screen and (max-width:688px) {
+  header{
+      width: 360px;
+      height: 700px;
+     
+  }
+  .first-section{
+      display: flex;
+      flex-direction: column;
+  }
+  .first-div{
+      padding-bottom: 0px;
+  }
+  .page-headline{
+      width: 250px;
+      height: 235px;
+      font-size: 36px;
+      margin-top: 100px;
+    margin-left: 15px;
+   
+  }
+    .arrow{
+    width: 165px;
+    height: 40px;
+    margin-left: 15px;
+    
+ }
+ .kick{
+     width: 320px;
+     height: 250px;
+     padding-top: 0px;
+     margin-bottom: 50px;
+    
+   }
+   .players{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+    padding-left: 0px;
+   }
+    .last-pic img{
+        width: 220px;
+        height: 80px;
+    }
+
+}
