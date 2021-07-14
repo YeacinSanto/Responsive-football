@@ -51,6 +51,10 @@ mid section
     margin-top: 100px;
     background-color: #ffffff;
 }
+p{
+    font-size: 16px;
+    font-weight: 400;
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -74,6 +78,30 @@ mid section
     width: 300px;
     height: 225px;
 }
+.search-area{
+    margin-top: 50px;
+    height: 250px;
+    background-color: rgba(0,0,0,0.1);
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+   padding-left: 40%;
+   
+}
+.fav-player{
+    color: red;
+    font-size: 25px;
+}
+.search-txt{
+    border: 1px solid rgba(0,0,0,0.4);
+    height: 55px;
+    border-radius: 80%;
+}
+.search-txt:hover{
+    height: 60px;
+    border-radius: 5px;
+
+}
+
 
 
 /*---------
@@ -165,6 +193,7 @@ Media Query
     .players{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        
     }
     
 }
