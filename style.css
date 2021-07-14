@@ -132,11 +132,13 @@ Media Query
      height: 250px;
      padding-top: 0px;
      margin-bottom: 50px;
+     margin-top: 50px;
     
    }
    .players{
     display: grid;
     grid-template-columns: repeat(1,1fr);
+    width: 100%;
     
     padding-left: 0px;
    }
@@ -145,4 +147,24 @@ Media Query
         height: 80px;
     }
 
+}
+/*tablet device*/
+@media only screen and (min-width:688px) and (max-width:992px) {
+   .page-headline{
+    font-size: 40px;
+    margin-left: 20px;
+    width: 155px;
+}
+  .arrow{
+      margin-left: 0px;
+  }
+  .kick{
+    width: 300px;
+    padding-right: 500px;
+  }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
 }
